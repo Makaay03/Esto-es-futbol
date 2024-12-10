@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/style.css">
+   <title>Esto es futbol</title>
+   <style>
+      body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    text-align: center;  
+    background-color: #f9f9f9; 
+}  
+
+header {  
+    background-color: #fff;  
+    color: black;  
+    padding: 20px;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    border-bottom: 2px solid #fff;  
+}  
+
+.titulo {  
+    margin: 0;  
+    font-size: 1.8em;  
+}  
+
+nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+    margin: 0;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin-right: 30px;  
+}  
+
+nav a {  
+    color: black;  
+    text-decoration: none;  
+    font-weight: bold;  
+}  
+
+nav a:hover {  
+    text-decoration: underline;  
+}  
+
+
+#bienvenida {  
+    background-color: #87CEEB;   
+    padding: 40px; 
+    color: #fff;  
+}  
+
+h2 {  
+    color:black;  
+    font-size: 2em;  
+    margin: 10px 0;  
+}  
+
+h2::after {  
+    content: "";  
+    display: block;  
+    width: 800px;   
+    height: 3px;  
+    background-color: #87CEEB; 
+    margin: 10px auto;  
+}  
+
+p {  
+    color:black ;   
+    margin: 0 0 20px;  
+    font-size: 1.2em; 
+}  
+
+
+#bienvenida img {  
+    width: 30%; 
+    max-height: 60vh; 
+    height: auto;  
+    margin-top: 10px;  
+    border-radius: 8px;  
+}  
+
+
+.container img {  
+    width: 80%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin-top: 10px;   
+}  
+.container video {  
+    width: 100%; 
+    height: auto; 
+}
+
+ 
+.container {  
+    width: 90%;  
+    max-width: 800px;  
+    margin: 20px auto;  
+    padding: 20px;  
+    border: 1px solid #eaeaea;  
+    border-radius: 8px;  
+    box-shadow: white;  
+    background: #fff;  
+    text-align: left; 
+    line-height: 1.6; 
+}  
+label {  
+    display: block;  
+    margin: 10px 0 5px;  
+    color:black;  
+}  
+
+input, textarea {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 4px;  
+    font-size: 15px;  
+}  
+
+button {  
+    width: 100%;  
+    padding: 10px;  
+    background-color: #007BFF;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    font-size: 16px;
+
+}
+   </style>
+</head>
+<body>
+  
+<!-- Encabezado -->  
+<header>  
+   <h1 class="titulo">ESto es futbol</h1>  
+   <nav>  
+       <ul>  
+           <li><a href="#acerca">Acerca de</a></li>  
+           <li><a href="#ultimas-noticias">Últimas noticias </a></li>  
+           <li><a href="#clubes">clubes</a></li>  
+           <li><a href="#galeria">Galería</a></li>  
+           <li><a href="#contacto">Contacto</a></li>  
+       </ul>  
+   </nav>  
+</header>  
+
+<!-- Bienvenida -->  
+<section id="bienvenida">  
+   <h2>Bienvenidos a esto es futbol</h2>  
+   <p>Tu fuente de información sobre los enventos y tendencias en el futbol.</p>  
+   <img src="Playing-Football.jpg" alt="esto es futbol">  
+</section>  
+
+<!-- Acerca de Nosotros -->  
+<section id="acerca" class="container">  
+   <h2>Acerca de Nosotros</h2>  
+   <p>El futbol, es un bonito deporte, por el futbol conoces diferentes lugares, haces amigos y sobre todo el futbol es vida,
+y mucho mas.</p>  
+   <img src="Futbol-Mundial-EN-VIVO-1.webp" alt="Acerca de Nosotros">  
+</section>  
+
+<!-- Últimas Noticias  -->  
+<section id="ultimas-Noticias" class="container">  
+   <h2>Últimas Innovaciones</h2>  
+   <p> Rel Madrid esta en su peor momomento ultimamente esta perdiendo todos sus partidos..</p>  
+   <img src="real madrid partido perdido.png" alt="Últimas noticias">  
+</section>  
+
+<!-- Equipos mas populares  -->  
+<section id="clbes con mas titulos" class="container">  
+   <h2>clubes con mas titulos internacionales </h2>  
+   <p>Explora sobre los clubes con  mas titulos internacionales de los ultimos tiempos.</p>  
+   <img src="equipos con mas titulos.jpg" alt="equipos mas populares">  
+</section>  
+
+<!-- Galería de Medios -->  
+<section id="galeria" class="container">  
+   <h2>Galería de Medios</h2>  
+   <p>Explora cómo el mas sobre el fitbol.</p> 
+   <video class="video-galeria" src="video futbol.mp4" controls></video>    
+</section>
+
+       <!-- Sección de Contacto -->  
+    <div class="container">  
+      <h1>Contáctanos</h1>  
+      <p>Si tienes preguntas o comentarios, completa el siguiente formulario:</p>  
+      
+      <label for="nombre">Nombre:</label>  
+      <input type="text" id="nombre" placeholder="Tu nombre">  
+  
+      <label for="correo">Correo Electrónico:</label>  
+      <input type="email" id="correo" placeholder="Tu correo electrónico">  
+  
+      <label for="mensaje">Mensaje:</label>  
+      <textarea id="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea>  
+  
+      <button type="submit">Enviar</button>  
+  </div>  
+
+  <!-- Pie de Página -->  
+  <footer>
+      <p> 2024 TechWorld. Todos los derechos reservados.</p>
+   </footer>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,132 @@
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    text-align: center;  
+    background-color: #f9f9f9; 
+}  
+
+header {  
+    background-color: #fff;  
+    color: black;  
+    padding: 20px;  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    border-bottom: 2px solid #fff;  
+}  
+
+.titulo {  
+    margin: 0;  
+    font-size: 1.8em;  
+}  
+
+nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+    margin: 0;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin-right: 30px;  
+}  
+
+nav a {  
+    color: black;  
+    text-decoration: none;  
+    font-weight: bold;  
+}  
+
+nav a:hover {  
+    text-decoration: underline;  
+}  
+
+
+#bienvenida {  
+    background-color: #87CEEB;   
+    padding: 40px; 
+    color: #fff;  
+}  
+
+h2 {  
+    color:black;  
+    font-size: 2em;  
+    margin: 10px 0;  
+}  
+
+h2::after {  
+    content: "";  
+    display: block;  
+    width: 800px;   
+    height: 3px;  
+    background-color: #87CEEB; 
+    margin: 10px auto;  
+}  
+
+p {  
+    color:black ;   
+    margin: 0 0 20px;  
+    font-size: 1.2em; 
+}  
+
+
+#bienvenida img {  
+    width: 30%; 
+    max-height: 60vh; 
+    height: auto;  
+    margin-top: 10px;  
+    border-radius: 8px;  
+}  
+
+
+.container img {  
+    width: 80%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin-top: 10px;   
+}  
+.container video {  
+    width: 100%; 
+    height: auto; 
+}
+
+ 
+.container {  
+    width: 90%;  
+    max-width: 800px;  
+    margin: 20px auto;  
+    padding: 20px;  
+    border: 1px solid #eaeaea;  
+    border-radius: 8px;  
+    box-shadow: white;  
+    background: #fff;  
+    text-align: left; 
+    line-height: 1.6; 
+}  
+label {  
+    display: block;  
+    margin: 10px 0 5px;  
+    color:black;  
+}  
+
+input, textarea {  
+    width: 100%;  
+    padding: 10px;  
+    margin-bottom: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 4px;  
+    font-size: 15px;  
+}  
+
+button {  
+    width: 100%;  
+    padding: 10px;  
+    background-color: #007BFF;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    font-size: 16px;
+
+}
